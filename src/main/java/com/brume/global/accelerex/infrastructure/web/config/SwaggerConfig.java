@@ -49,7 +49,7 @@ public class SwaggerConfig {
                 .globalResponseMessage(RequestMethod.PATCH, globalResponses)
                 .select()
                 .apis(RequestHandlerSelectors
-                        .basePackage("com.amos.amos.global.accelerex.infrastructure.web.controller"))
+                        .basePackage("com.brume.global.accelerex.infrastructure.web.controller"))
                 .apis(RequestHandlerSelectors.any())
                 .paths(PathSelectors.any())
                 .build()
